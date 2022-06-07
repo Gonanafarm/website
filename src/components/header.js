@@ -130,6 +130,7 @@ export default function Header() {
                           className="title animated"
                           data-animate="fadeInUp"
                           data-delay={1}
+                        
                         >
                           Gonana Marketplace
                         </h1>

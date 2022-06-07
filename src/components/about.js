@@ -14,6 +14,7 @@ export default function About() {
                   className="title animated"
                   data-animate="fadeInUp"
                   data-delay=".1"
+                  style={{color:"#015125"}}
                 >
                   About Gonana
                 </h2>

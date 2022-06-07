@@ -585,15 +585,15 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-white-22 { background-color: rgba(255, 255, 255, 0.22); }
 
-.bg-theme { background-color: #122272 !important; }
+.bg-theme { background-color: #015125!important; }
 
 .bg-theme.current { background-color: rgba(18, 34, 114, 0.7) !important; }
 
-.bg-theme-alt { background-color: #1940b0 !important; }
+.bg-theme-alt { background-color: #01843B !important; }
 
 .bg-theme-alt.current { background-color: rgba(25, 64, 176, 0.7) !important; }
 
-.bg-theme-grad { background-image: linear-gradient(to right, #122272 0%, #1940b0 100%) !important; }
+.bg-theme-grad { background-image: linear-gradient(to right, #015125 0%, #01843B 100%) !important; }
 
 .bg-theme-grad-alt { background-image: linear-gradient(to right, #1940b0 0%, #122272 100%) !important; }
 
@@ -6944,3 +6944,8 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 /* END @iO */
 /* END @iO */
+
+
+.title{
+ color:#015125;
+}
