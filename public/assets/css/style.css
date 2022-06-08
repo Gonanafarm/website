@@ -4816,9 +4816,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-wrap-s5:before { position: absolute; content: ""; left: 0; width: 1px; height: calc(100% + 30px); background: #16a3fe; }
 
-.roadmap-line { position: absolute; left: 19px; top: 0; background: #057B36; height: 100%; width: 2px; content: ''; z-index: 9; }
+.roadmap-line { position: absolute; left: 19px; top: 0; background: #7DE5A8; height: 100%; width: 2px; content: ''; z-index: 9; }
 
-.roadmap-line:after, .roadmap-line:before { position: absolute; background: #057B36; height: 10px; width: 10px; border-radius: 50%; content: ''; left: -4px; }
+.roadmap-line:after, .roadmap-line:before { position: absolute; background:#7DE5A8; height: 10px; width: 10px; border-radius: 50%; content: ''; left: -4px; }
 
 .roadmap-line:before { top: 0; }
 
@@ -4850,7 +4850,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-year-s2 { padding-bottom: 65px; }
 
-.roadmap-step { border: 2px solid #dbe4f7; border-radius: 5px; position: relative; margin-left: 50px; padding: 20px 20px 15px; position: relative; max-width: 380px; }
+.roadmap-step { border: 2px solid #7DE5A8; border-radius: 5px; position: relative; margin-left: 50px; padding: 20px 20px 15px; position: relative; max-width: 380px; }
 
 .bg-light .roadmap-step { background: #fff; }
 
