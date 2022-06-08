@@ -157,7 +157,7 @@ function App() {
                       data-delay=".3"
                     >
                       <h4 className="title title-md mb-2 text-sm-center">
-                        Sales Information
+                         Token Metrics
                       </h4>
                       <table className="table table-s1 table-token">
                         <tbody>
@@ -233,7 +233,7 @@ function App() {
                           }}
                           className=""
                         >
-                          Token <br /> Distribution
+                          Sales <br /> Proceeds
                         </div>
                       </div>
 
@@ -286,7 +286,8 @@ function App() {
                           }}
                           className=""
                         >
-                          Sales <br /> Proceeds
+                        
+                          Token  <br /> Distribution
                         </div>
                       </div>
 
