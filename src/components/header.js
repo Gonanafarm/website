@@ -130,7 +130,6 @@ export default function Header() {
                           className="title animated"
                           data-animate="fadeInUp"
                           data-delay={1}
-                        
                         >
                           Gonana Marketplace
                         </h1>
@@ -155,8 +154,11 @@ export default function Header() {
                           data-animate="fadeInUp"
                           data-delay="1.2"
                         >
-                          <a className="btn btn-grad" href="#">
-                            Register Now
+                          <a
+                            className="btn btn-grad"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSe0jlgOxR_8v7OCJcWoNqU45RXLmgwsnCRxYcnAqMvQr87U5w/viewform?usp=sf_link"
+                          >
+                            Join Testers
                           </a>
                         </div>
                         <ul
