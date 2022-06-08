@@ -399,9 +399,9 @@ function App() {
                           </p>
                           <ul className="btn-grp gutter-30px gutter-vr-20px">
                             <li>
-                              <a href="#" className="btn btn-grad">
+                              {/* <a href="#" className="btn btn-grad">
                                 Download Lite paper
-                              </a>
+                              </a> */}
                             </li>
                           </ul>
                         </div>
