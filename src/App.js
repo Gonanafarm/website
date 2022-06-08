@@ -2,12 +2,33 @@ import logo from "./logo.svg";
 import TeamCard from "./components/team-card";
 import About from "./components/about";
 import Header from "./components/header";
+import YouTube from "react-youtube";
 
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
+ 
 function App() {
+  const opts = {
+  
+  
+    // width:"100%",
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+ 
   return (
     <div className="nk-wrap">
       <Header />
       <main className="nk-pages">
+        <div style={{ margin: "auto", borderRadius:10, overflow:"hidden" }} className="col-11 col-md-5" >
+        <LiteYouTubeEmbed 
+        id="nLKJfBTq5gg"
+        title=""
+    />
+        </div>
+
         <About />
 
         <section className="section section-problem bg-light" id="problem">
@@ -157,7 +178,7 @@ function App() {
                       data-delay=".3"
                     >
                       <h4 className="title title-md mb-2 text-sm-center">
-                         Token Metrics
+                        Token Metrics
                       </h4>
                       <table className="table table-s1 table-token">
                         <tbody>
@@ -286,8 +307,7 @@ function App() {
                           }}
                           className=""
                         >
-                        
-                          Token  <br /> Distribution
+                          Token <br /> Distribution
                         </div>
                       </div>
 
