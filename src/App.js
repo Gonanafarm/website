@@ -96,7 +96,7 @@ function App() {
                   className="title animated"
                   data-animate="fadeInUp"
                   data-delay=".1"
-                  style={{color:"#015125"}}
+                  style={{ color: "#015125" }}
                 >
                   Problem and Challenge
                 </h2>
@@ -338,10 +338,18 @@ function App() {
                         data-animate="fadeInUp"
                         data-delay=".1"
                       >
-                        <div className="token-alocate-graph my-5">
-                          <span>
+                        <div className="token-alocate--graph">
+                          <div
+                            style={{
+                              fontSize: 18,
+                              textAlign: "center",
+                              paddingTop: 18,
+                              paddingBottom: 18,
+                            }}
+                            className=""
+                          >
                             Token <br /> Distribution
-                          </span>
+                          </div>
                           {/* <canvas className="chart-canvas" id="token-alocate" /> */}
                         </div>
 
@@ -368,7 +376,9 @@ function App() {
                               <td className="table-des">7%</td>
                             </tr>
                             <tr>
-                              <td className="table-head">Operation & Administration</td>
+                              <td className="table-head">
+                                Operation & Administration
+                              </td>
                               <td className="table-des">8%</td>
                             </tr>
                           </tbody>
@@ -382,10 +392,18 @@ function App() {
                         data-animate="fadeInUp"
                         data-delay=".2"
                       >
-                        <div className="token-alocate-graph my-5">
-                          <span>
+                        <div className="token-alocate--graph">
+                          <div
+                            style={{
+                              fontSize: 18,
+                              textAlign: "center",
+                              paddingTop: 18,
+                              paddingBottom: 18,
+                            }}
+                            className=""
+                          >
                             Sales <br /> Proceeds
-                          </span>
+                          </div>
                           {/* <canvas className="chart-canvas" id="fund-alocate" /> */}
                         </div>
 
@@ -1165,7 +1183,14 @@ function App() {
                           <li>
                             <em className="contact-icon fab fa-twitter" />
                             <div className="contact-text">
-                              <span>@Gonanafarm</span>
+                              <a
+                                href={"https://twitter.com/Gonanafarm"}
+                                onClick={() => {
+                                  window.open("https://twitter.com/Gonanafarm");
+                                }}
+                              >
+                                <span>Gonanafarm</span>
+                              </a>
                             </div>
                           </li>
                           <li>

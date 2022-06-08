@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import blockchainLottie from "../lottie/blockchain.json";
+import blockchainLottie from "../lottie/farmer.json";
 export default function Header() {
   return (
     <header

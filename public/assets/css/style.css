@@ -2285,7 +2285,7 @@ a .title { transition: all .4s; }
 
 .list-dot li { position: relative; padding-left: 22px; line-height: 1.62; }
 
-.list-dot li:before { position: absolute; top: 14px; left: 0; height: 5px; width: 5px; content: ''; border-radius: 50%; background: #1940b0; }
+.list-dot li:before { position: absolute; top: 14px; left: 0; height: 5px; width: 5px; content: ''; border-radius: 50%; background: #057B36; }
 
 .tc-light .list-dot li:before { background: rgba(255, 255, 255, 0.7); }
 
@@ -4816,9 +4816,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-wrap-s5:before { position: absolute; content: ""; left: 0; width: 1px; height: calc(100% + 30px); background: #16a3fe; }
 
-.roadmap-line { position: absolute; left: 19px; top: 0; background: #c1cef1; height: 100%; width: 2px; content: ''; z-index: 9; }
+.roadmap-line { position: absolute; left: 19px; top: 0; background: #057B36; height: 100%; width: 2px; content: ''; z-index: 9; }
 
-.roadmap-line:after, .roadmap-line:before { position: absolute; background: #c1cef1; height: 10px; width: 10px; border-radius: 50%; content: ''; left: -4px; }
+.roadmap-line:after, .roadmap-line:before { position: absolute; background: #057B36; height: 10px; width: 10px; border-radius: 50%; content: ''; left: -4px; }
 
 .roadmap-line:before { top: 0; }
 
@@ -4842,7 +4842,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-line-s3:before, .roadmap-line-s3:after { display: none; }
 
-.roadmap-year { border-radius: 50%; color: #fff; background: #122272; height: 50px; width: 50px; text-align: center; line-height: 50px; font-weight: 700; font-size: 12px; position: relative; left: -5px; }
+.roadmap-year { border-radius: 50%; color: #fff; background: #034a20; height: 50px; width: 50px; text-align: center; line-height: 50px; font-weight: 700; font-size: 12px; position: relative; left: -5px; }
 
 .tc-light .roadmap-year { background: #16a3fe; }
 
