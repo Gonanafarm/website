@@ -22,10 +22,10 @@ function App() {
     <div className="nk-wrap">
       <Header />
       <main className="nk-pages">
-        <div style={{ margin: "auto", borderRadius:10, overflow:"hidden" }} className="col-11 col-md-5" >
+        <div style={{ margin: "auto", borderRadius:10, overflow:"hidden" }} className="col-11 col-md-5 " >
         <LiteYouTubeEmbed 
         id="nLKJfBTq5gg"
-        title=""
+        title="About Gonana"
     />
         </div>
 
