@@ -4,29 +4,27 @@ import About from "./components/about";
 import Header from "./components/header";
 import YouTube from "react-youtube";
 
-import LiteYouTubeEmbed from 'react-lite-youtube-embed';
-import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
- 
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+
 function App() {
   const opts = {
-  
-  
     // width:"100%",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
     },
   };
- 
+
   return (
     <div className="nk-wrap">
       <Header />
       <main className="nk-pages">
-        <div style={{ margin: "auto", borderRadius:10, overflow:"hidden" }} className="col-11 col-md-5 " >
-        <LiteYouTubeEmbed 
-        id="nLKJfBTq5gg"
-        title="About Gonana"
-    />
+        <div
+          style={{ margin: "auto", borderRadius: 10, overflow: "hidden" }}
+          className="col-11 col-md-5 "
+        >
+          <LiteYouTubeEmbed id="nLKJfBTq5gg" title="About Gonana" />
         </div>
 
         <About />
@@ -148,15 +146,15 @@ function App() {
               <div className="section-head text-center wide-auto">
                 <h2
                   className="title animated"
-                  data-animate="fadeInUp"
-                  data-delay=".1"
+                  // data-animate="fadeInUp"
+                  // data-delay=".1"
                 >
                   Gonana Tokens
                 </h2>
                 <p
                   className="animated"
-                  data-animate="fadeInUp"
-                  data-delay=".2"
+                  // data-animate="fadeInUp"
+                  // data-delay=".2"
                   style={{ color: "white" }}
                 >
                   Gonana token (Gona) will be an integral part of the Gonana
@@ -174,8 +172,8 @@ function App() {
                   <div className="col-lg-8 text-center">
                     <div
                       className="token-info bg-theme animated"
-                      data-animate="fadeInUp"
-                      data-delay=".3"
+                      // data-animate="fadeInUp"
+                      // data-delay=".3"
                     >
                       <h4 className="title title-md mb-2 text-sm-center">
                         Token Metrics
@@ -420,8 +418,8 @@ function App() {
                           <ul className="btn-grp gutter-30px gutter-vr-20px">
                             <li>
                               {/* <a href="#" className="btn btn-grad">
-                                Download Lite paper
-                              </a> */}
+                              Download Lite paper
+                            </a> */}
                             </li>
                           </ul>
                         </div>
@@ -703,11 +701,15 @@ function App() {
                   <TeamCard
                     image="/images/core/kizito-image.jpg"
                     description={` Kizito Horlong is an optimistic and passionate
-                    software developer with over 4 years of experience
-                    building effective tech solutions for the web, backend
-                    systems, blockchain, and data science.`}
+                  software developer with over 4 years of experience
+                  building effective tech solutions for the web, backend
+                  systems, blockchain, and data science.`}
                     position={"Developer"}
                     name="Kizito Horlong"
+                    twitter={"https://twitter.com/KizitoNaanma?t=Nga16puLyPfBDwa-ehNX0g&s=09"}
+                    linkedln={
+                      "https://www.linkedin.com/in/kizito-horlong"
+                    }
                   />
                 </div>
                 {/* .col */}
@@ -718,6 +720,23 @@ function App() {
                     description={`Joshua Nwafor is a young, passionate developer and trainer at KusuConsult focused on building outstanding tech solutions using the most efficient and effective methods and tools possible.`}
                     position={"Chief Technical Officer"}
                     name=" Joshua Nwafor"
+                    twitter={"https://twitter.com/10xJoshua"}
+                    linkedln={
+                      "https://www.linkedin.com/in/joshua-nwafor-62189b156/"
+                    }
+                  />
+                </div>
+
+                <div className="col-12 col-md-4 ">
+                  <TeamCard
+                    image="/images/core/dusu.JPG"
+                    description={`He is  a legal practitioner with 10 years experience in legal practice, a fintech law enthusiast with special interest in the Blockchain technology.`}
+                    position={"Legal practitioner"}
+                    name="Dusu Thomas Shut"
+                    twitter={"https://twitter.com/10xJoshua"}
+                    linkedln={
+                      "https://www.linkedin.com/in/joshua-nwafor-62189b156/"
+                    }
                   />
                 </div>
               </div>
