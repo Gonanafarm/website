@@ -706,10 +706,10 @@ function App() {
                   systems, blockchain, and data science.`}
                     position={"Developer"}
                     name="Kizito Horlong"
-                    twitter={"https://twitter.com/KizitoNaanma?t=Nga16puLyPfBDwa-ehNX0g&s=09"}
-                    linkedln={
-                      "https://www.linkedin.com/in/kizito-horlong"
+                    twitter={
+                      "https://twitter.com/KizitoNaanma?t=Nga16puLyPfBDwa-ehNX0g&s=09"
                     }
+                    linkedln={"https://www.linkedin.com/in/kizito-horlong"}
                   />
                 </div>
                 {/* .col */}
@@ -731,7 +731,7 @@ function App() {
                   <TeamCard
                     image="/images/core/dusu.JPG"
                     description={`He is  a legal practitioner with 10 years experience in legal practice, a fintech law enthusiast with special interest in the Blockchain technology.`}
-                    position={"Legal practitioner"}
+                    position={"Lawyer"}
                     name="Dusu Thomas Shut"
                     twitter={"https://twitter.com/10xJoshua"}
                     linkedln={
