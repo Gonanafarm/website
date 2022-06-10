@@ -615,6 +615,7 @@ function App() {
                     data-delay=".1"
                   >
                     <img src="/images/core/boss.jpeg" alt="team" />
+
                     <h5 className="team-featured-info">
                       Stephen Sunday<span>Chief Executive Officer</span>
                     </h5>
@@ -661,6 +662,29 @@ function App() {
                       Africa at the University of Jos) and also Jaysources, a
                       DApp deployed on the Algorand.
                     </p>
+                    <p>Social media handle</p>
+                    <ul className="team-soc d-flex">
+                      <li>
+                        <a
+                          href={
+                            "https://www.linkedin.com/in/stephensundaykusu/"
+                          }
+                        >
+                          <em
+                            className="fab fa-linkedin-in"
+                            style={{ fontSize: 24 }}
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href={"https://twitter.com/steviekusu"}>
+                          <em
+                            className="fab fa-twitter"
+                            style={{ fontSize: 24, marginLeft: 24 }}
+                          />
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -692,6 +716,10 @@ function App() {
                     description={`Eno Peters is a product manager, copywriter, and content creator with over 5 years of experience, working with tech companies and bringing quality solutions to help startups move from the ground up.`}
                     position={"Co-Founder"}
                     name="Eno Peters"
+                    twitter="https://twitter.com/enogift6?t=HtzmyGRgIe5g8Cufcw-aqw&s=09"
+                    linkedln={
+                      "https://www.linkedin.com/in/eno-peters-1104b7153"
+                    }
                   />
                 </div>
 
@@ -704,7 +732,7 @@ function App() {
                   software developer with over 4 years of experience
                   building effective tech solutions for the web, backend
                   systems, blockchain, and data science.`}
-                    position={"Developer"}
+                    position={"Co-founder"}
                     name="Kizito Horlong"
                     twitter={
                       "https://twitter.com/KizitoNaanma?t=Nga16puLyPfBDwa-ehNX0g&s=09"
@@ -716,23 +744,21 @@ function App() {
 
                 <div className="col-12 col-md-4 ">
                   <TeamCard
-                    image="/images/core/joshua.jpg"
-                    description={`Joshua Nwafor is a young, passionate developer and trainer at KusuConsult focused on building outstanding tech solutions using the most efficient and effective methods and tools possible.`}
-                    position={"Chief Technical Officer"}
-                    name=" Joshua Nwafor"
-                    twitter={"https://twitter.com/10xJoshua"}
-                    linkedln={
-                      "https://www.linkedin.com/in/joshua-nwafor-62189b156/"
-                    }
+                    image="/images/core/dusu.JPG"
+                    description={`He is  a legal practitioner with 10 years experience in legal practice, a fintech law enthusiast with special interest in the Blockchain technology.`}
+                    position={"Co-founder"}
+                    name="Dusu Thomas Shut"
+                    twitter={"#"}
+                    linkedln={"#"}
                   />
                 </div>
 
                 <div className="col-12 col-md-4 ">
                   <TeamCard
-                    image="/images/core/dusu.JPG"
-                    description={`He is  a legal practitioner with 10 years experience in legal practice, a fintech law enthusiast with special interest in the Blockchain technology.`}
-                    position={"Lawyer"}
-                    name="Dusu Thomas Shut"
+                    image="/images/core/joshua.jpg"
+                    description={`Joshua Nwafor is a young, passionate developer and trainer at KusuConsult focused on building outstanding tech solutions using the most efficient and effective methods and tools possible.`}
+                    position={"Chief Technical Officer"}
+                    name=" Joshua Nwafor"
                     twitter={"https://twitter.com/10xJoshua"}
                     linkedln={
                       "https://www.linkedin.com/in/joshua-nwafor-62189b156/"
