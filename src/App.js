@@ -3,11 +3,13 @@ import TeamCard from "./components/team-card";
 import About from "./components/about";
 import Header from "./components/header";
 import YouTube from "react-youtube";
-
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
+import { useTranslation, withTranslation, Trans } from "react-i18next";
 
 function App() {
+  const { t, i18n } = useTranslation();
+
   const opts = {
     // width:"100%",
     playerVars: {
@@ -29,351 +31,6 @@ function App() {
 
         <About />
 
-        <section className="section section-problem bg-light" id="problem">
-          <div className="container">
-            <div className="section-head text-center wide-auto-sm">
-              <h2
-                className="title animated"
-                data-animate="fadeInUp"
-                data-delay=".1"
-                style={{ color: "#015125" }}
-              >
-                Problem and Challenge
-              </h2>
-              <p className="animated" data-animate="fadeInUp" data-delay=".2">
-                Farming is one of the oldest professions in human history. Since
-                man can’t survive without food, Some individuals decided to take
-                a profession called farming to produce food to reduce food
-                shortage and rescue the situation. Gonana offers a wide range of
-                solutions to tackle this problem and correct the notion of
-                people about farming; also how farming can be a very good paying
-                job for anyone around the world with the right solution like
-                Gonana.
-              </p>
-            </div>
-            {/* .section-head @e */}
-            {/* Block @s */}
-            <div className="nk-block nk-block-problems tc-light">
-              <div className="row g-0 align-items-center">
-                <div className="col-lg-6">
-                  <div
-                    className="feature boxed boxed-lg bg-theme no-mg split-lg-left split-left animated"
-                    data-animate="fadeInUp"
-                    data-delay=".3"
-                  >
-                    <h4 className="title title-md">Simple and Fast</h4>
-                    <p style={{ color: "white" }}>
-                      Gonana has implemented a straightforward and fast payment
-                      system for settlement that is deployed on the blockchain
-                      (Moonbeam protocol) with cross-chain capabilities on
-                      Algorand, XDC, Evmos, Solana, Acala, Celo, and Near to
-                      give the farmers an authentic blockchain experience with a
-                      simple web3 design.{" "}
-                    </p>
-                  </div>
-                </div>
-                {/* .col */}
-                <div className="col-lg-6">
-                  <div
-                    className="feature-group bg-theme-alt split-right split-lg animated"
-                    data-animate="fadeInUp"
-                    data-delay=".4"
-                  >
-                    <div className="feature boxed bg-white-10">
-                      <div className="feature-text">
-                        <h4 className="title title-md">Free</h4>
-                        <p style={{ color: "white" }}>
-                          Using the Gonana application for farmers to sell their
-                          products will be completely free of any form of
-                          charges. This is to help the farmers take as much
-                          profit as possible as a reward for the hard work they
-                          put on production. There will be no hidden charges due
-                          to Gonana as a company or any other party.{" "}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="feature boxed bg-white-2">
-                      <div className="feature-text">
-                        <h4 className="title title-md">
-                          Supply Chain (Logistics)
-                        </h4>
-                        <p style={{ color: "white" }}>
-                          Gonana has partnered with some logistics companies to
-                          make sure that every customer using the Gonana DApp
-                          for agricultural purchases gets the best products from
-                          these farmers. They will make sure that every farmer
-                          gives products as displayed on the Marketplace to help
-                          cut down any form of dishonesty or fraud in the
-                          system. Also these logistics companies take full
-                          responsibility for any damage or loss of produce that
-                          are handled by them. The customer can be guaranteed
-                          quality, safety and also on time delivery.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="feature boxed bg-black-10">
-                      <div className="feature-text">
-                        <h4 className="title title-md">
-                          Decentralized Exchange
-                        </h4>
-                        <p style={{ color: "white" }}>
-                          We have implemented a payment system that is easy to
-                          use and also an exchange that permits the farmers to
-                          swap their token for another. This also means that
-                          they can stake, swap, lend, and borrow while earning
-                          some profit for their Defi activities. This is to help
-                          the farmers have a holistic approach to Defi and Cefi.
-                          Also, farmers get a multi-chain exchange where they
-                          can use assets from other blockchain protocols like
-                          Algorand, XDC, Evmos, Acala, Celo, Solana and Near.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {/* .col */}
-              </div>
-              {/* .row */}
-            </div>
-            {/* .block @e */}
-          </div>
-        </section>
-
-        <section className="bg-theme bg-pattern-dots" id="tokensale">
-          <div className="section section-tokensale tc-light">
-            <div className="container">
-              {/* Section Head @s */}
-              <div className="section-head text-center wide-auto">
-                <h2
-                  className="title animated"
-                  // data-animate="fadeInUp"
-                  // data-delay=".1"
-                >
-                  Gonana Tokens
-                </h2>
-                <p
-                  className="animated"
-                  // data-animate="fadeInUp"
-                  // data-delay=".2"
-                  style={{ color: "white" }}
-                >
-                  Gonana token (Gona) will be an integral part of the Gonana
-                  marketplace to aid the growth and efficiency of the ecosystem.
-                  Farmers will have the option to receive payment in Gona,
-                  stake, participate in yield farming, lending and borrowing,
-                  and other Defi activities. It will also be the native token of
-                  the ecosystem.
-                </p>
-              </div>
-              {/* .section-head @e */}
-              {/* Block @s */}
-              <div className="nk-block nk-block-token mgb-m30">
-                <div className="row justify-content-center">
-                  <div className="col-lg-8 text-center">
-                    <div
-                      className="token-info bg-theme animated"
-                      // data-animate="fadeInUp"
-                      // data-delay=".3"
-                    >
-                      <h4 className="title title-md mb-2 text-sm-center">
-                        Token Metrics
-                      </h4>
-                      <table className="table table-s1 table-token">
-                        <tbody>
-                          <tr>
-                            <td className="table-head">Token Name</td>
-                            <td className="table-des">Gona</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Token type</td>
-                            <td className="table-des">ERC20</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Total Token Supply</td>
-                            <td className="table-des">1 Billion</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Hard cap</td>
-                            <td className="table-des">$6,000,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Soft cap</td>
-                            <td className="table-des">$4,000,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Pre Seed sale</td>
-                            <td className="table-des">$700,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Seed sale</td>
-                            <td className="table-des">$1,200,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Private sale</td>
-                            <td className="table-des">$2,000,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">
-                              Initial Circulating Supply
-                            </td>
-                            <td className="table-des"> 400,000,000</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Maximum Supply</td>
-                            <td className="table-des"> 1,000,000,000</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="section-tokendes">
-            <div className="container">
-              {/* Block @s */}
-              <div className="nk-block nk-block-alocation mgb-m30">
-                <div className="row">
-                  <div className="col-lg-6">
-                    <div
-                      className="token-alocate-item animated"
-                      data-animate="fadeInUp"
-                      data-delay=".1"
-                    >
-                      <div className="token-alocate--graph">
-                        <div
-                          style={{
-                            fontSize: 18,
-                            textAlign: "center",
-                            paddingTop: 18,
-                            paddingBottom: 18,
-                          }}
-                          className=""
-                        >
-                          Sales <br /> Proceeds
-                        </div>
-                      </div>
-
-                      <table className="table table-s1 table-token">
-                        <tbody>
-                          <tr>
-                            <td className="table-head">Development</td>
-                            <td className="table-des">35%</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Marketing</td>
-                            <td className="table-des">30%</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Exchange Listing</td>
-                            <td className="table-des">12%</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Legal</td>
-                            <td className="table-des">8%</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">Product</td>
-                            <td className="table-des">7%</td>
-                          </tr>
-                          <tr>
-                            <td className="table-head">
-                              Operation & Administration
-                            </td>
-                            <td className="table-des">8%</td>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                  {/* .col */}
-                  <div className="col-lg-6">
-                    <div
-                      className="token-alocate-item animated"
-                      data-animate="fadeInUp"
-                      data-delay=".2"
-                    >
-                      <div className="token-alocate--graph">
-                        <div
-                          style={{
-                            fontSize: 18,
-                            textAlign: "center",
-                            paddingTop: 18,
-                            paddingBottom: 18,
-                          }}
-                          className=""
-                        >
-                          Token <br /> Distribution
-                        </div>
-                      </div>
-
-                      <div>
-                        <table className="table table-s1 table-token">
-                          <tbody>
-                            <tr>
-                              <td className="table-head">Pre-Seed</td>
-                              <td className="table-des">7%</td>
-                              <td className="table-des">70,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Seed round</td>
-                              <td className="table-des">8%</td>
-                              <td className="table-des">70,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Public</td>
-                              <td className="table-des">10%</td>
-                              <td className="table-des">100,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Marketing</td>
-                              <td className="table-des">12%</td>
-                              <td className="table-des">120,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Development</td>
-                              <td className="table-des">10%</td>
-                              <td className="table-des">100,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Rewards</td>
-                              <td className="table-des">14%</td>
-                              <td className="table-des">140,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Team</td>
-                              <td className="table-des">6%</td>
-                              <td className="table-des">60,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Partnership</td>
-                              <td className="table-des">10%</td>
-                              <td className="table-des">100,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Advisor</td>
-                              <td className="table-des">2%</td>
-                              <td className="table-des">2,000,000</td>
-                            </tr>
-                            <tr>
-                              <td className="table-head">Reserve</td>
-                              <td className="table-des">12%</td>
-                              <td className="table-des">130,000,000</td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="nk-ovm ovm-bottom ovm-h-70 bg-light" />
-          </div>
-        </section>
-
         <section className="section bg-light section-document" id="documents">
           <div className="container">
             <div className="section-head text-center wide-auto">
@@ -382,7 +39,7 @@ function App() {
                 data-animate="fadeInUp"
                 data-delay=".1"
               >
-                Our LitePaper
+                Documentation
               </h2>
             </div>
 
@@ -403,18 +60,11 @@ function App() {
 
                       <div className="col-md-6">
                         <div className="nk-block-text">
-                          <h4 className="title title-md">Read the Litepaper</h4>
-                          <p>
-                            Gona is the native token for the Gonana ecosystem
-                            and it will be the default token for rewards on the
-                            Gonana DApp. Users making payment or performing any
-                            form of transaction on the DApp with the Gona token
-                            will have some form of cashback in form of a
-                            discount. The token will be used to reward liquidity
-                            providers on the Gonana DEX and those who earn any
-                            reward by using the DApp. Token will also be used to
-                            fund development activities of the Gonana ecosystem.{" "}
-                          </p>
+                          <h4 className="title title-md">
+                            {" "}
+                            {t("about.title")}
+                          </h4>
+                          <p>{t("about.body")}</p>
                           <ul className="btn-grp gutter-30px gutter-vr-20px">
                             <li>
                               {/* <a href="#" className="btn btn-grad">

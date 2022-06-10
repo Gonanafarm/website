@@ -67,31 +67,16 @@ export default function Header() {
                     </a>
                   </li>
                   <li className="menu-item">
-                    <a className="menu-link nav-link" href="#tokensale">
-                      Token Sale
-                    </a>
-                  </li>
-                  <li className="menu-item">
                     <a className="menu-link nav-link" href="#roadmap">
                       Roadmap
                     </a>
                   </li>
-                  {/*<li className="menu-item has-sub">*/}
-                  {/*    <a className="menu-link nav-link menu-toggle" href="#">More</a>*/}
-                  {/*    <ul className="menu-sub menu-drop">*/}
-                  {/*        <li className="menu-item"><a className="menu-link nav-link" href="#team">Team</a></li>*/}
-                  {/*        <li className="menu-item"><a className="menu-link nav-link" href="#faq">Faq</a></li>*/}
-                  {/*    </ul>*/}
-                  {/*</li>*/}
                   <li className="menu-item">
                     <a className="menu-link nav-link" href="#contact">
                       Contact
                     </a>
                   </li>
                 </ul>
-                {/*<ul className="menu-btns">*/}
-                {/*    <li><a href="#" data-bs-toggle="modal" data-bs-target="#login-popup" className="btn btn-md btn-auto btn-grad no-change"><span>Login</span></a></li>*/}
-                {/*</ul>*/}
               </nav>
             </div>
             {/* .header-navbar @e */}

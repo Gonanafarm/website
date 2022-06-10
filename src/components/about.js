@@ -14,7 +14,7 @@ export default function About() {
                   className="title animated"
                   data-animate="fadeInUp"
                   data-delay=".1"
-                  style={{color:"#015125"}}
+                  style={{ color: "#015125" }}
                 >
                   About Gonana
                 </h2>
@@ -51,15 +51,39 @@ export default function About() {
             </div>
           </div>
         </div>
-        {/* .block @e */}
-        {/* Section Head @s */}
-        <div className="section-head">
+
+        <section className="section section-problem bg-light" id="problem">
+          <div className="container">
+            <div className="section-head text-center wide-auto-sm">
+              <h2
+                className="title animated"
+                data-animate="fadeInUp"
+                data-delay=".1"
+                style={{ color: "#015125" }}
+              >
+                Problem and Challenge
+              </h2>
+              <p className="animated" data-animate="fadeInUp" data-delay=".2">
+                Farming is one of the oldest professions in human history. Since
+                man can’t survive without food, Some individuals decided to take
+                a profession called farming to produce food to reduce food
+                shortage and rescue the situation. Gonana offers a wide range of
+                solutions to tackle this problem and correct the notion of
+                people about farming; also how farming can be a very good paying
+                job for anyone around the world with the right solution like
+                Gonana.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="section-head" id="features">
           <h2
             className="title title-lg animated"
             data-animate="fadeInUp"
             data-delay=".6"
           >
-            Advantages of Gonana
+            What we offer
           </h2>
         </div>
         {/* .section-head @e */}
