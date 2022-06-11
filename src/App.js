@@ -5,11 +5,8 @@ import Header from "./components/header";
 import YouTube from "react-youtube";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
-import { useTranslation, withTranslation, Trans } from "react-i18next";
 
 function App() {
-  const { t, i18n } = useTranslation();
-
   const opts = {
     // width:"100%",
     playerVars: {
@@ -61,17 +58,37 @@ function App() {
                       <div className="col-md-6">
                         <div className="nk-block-text">
                           <h4 className="title title-md">
-                            {" "}
-                            {t("about.title")}
+                            Read the documentation
                           </h4>
-                          <p>{t("about.body")}</p>
-                          <ul className="btn-grp gutter-30px gutter-vr-20px">
-                            <li>
-                              {/* <a href="#" className="btn btn-grad">
-                              Download Lite paper
-                            </a> */}
-                            </li>
-                          </ul>
+                          <p>
+                            Gonana is a well structured DApp that gives the
+                            farmer access to a wallet on signup. The default
+                            wallet is deployed on the Moonbeam protocol. The
+                            wallet helps the farmer to have full access and
+                            control of the marketplace where they can list their
+                            products for the entire Gonana ecosystem. The
+                            marketplace gives farmers a complete social media
+                            experience where they can chat with customers, other
+                            farmers and possible investors that will like to
+                            collaborate with them on production or other future
+                            business engagements. Also this gives the farmers a
+                            multimedia option to upload images of their products
+                            and under the images, interested clients can comment
+                            on the individual products the farmers uploaded.
+                          </p>
+                          <p>
+                            Gona is an integral component of the marketplace and
+                            the DEX, which contributes to the expansion and
+                            efficiency of our ecosystem. Farmers have the option
+                            of receiving payment in Gona, participating in
+                            staking, lending, borrowing, and engaging in other
+                            Defi-related activities. The total supply of Gona
+                            tokens is permanently capped at 1 billion. This
+                            means that no minting will be possible through the
+                            smart contract, and the total supply will remain
+                            constant. Therefore, token burning won't be
+                            necessary in the future.
+                          </p>
                         </div>
                       </div>
                     </div>

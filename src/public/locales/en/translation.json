@@ -1,0 +1,11 @@
+{
+    "title": "Welcome to react using react-i18next",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above."
+    },
+    "about":{
+        "title":"Read the documentation",
+        "body":"Gona is the native token for the Gonana ecosystem and it will be the default token for rewards on the Gonana DApp. Users making payment or performing any form of transaction on the DApp with the Gona token will have some form of cashback in form of a discount. The token will be used to reward liquidity providers on the Gonana DEX and those who earn any reward by using the DApp. Token will also be used to fund development activities of the Gonana ecosystem."
+    }
+  }
