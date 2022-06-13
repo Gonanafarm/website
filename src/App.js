@@ -89,7 +89,9 @@ function App() {
                             constant. Therefore, token burning won't be
                             necessary in the future.
                           </p>
-                          <a href="#" className="btn btn-primary">Read More</a>
+                          <a href="#" className="btn btn-primary">
+                            Read More
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -656,9 +658,6 @@ function App() {
                         </li>
                         <li>
                           <a href="#">Faqs</a>
-                        </li>
-                        <li>
-                          <a href="#">Login</a>
                         </li>
                       </ul>
                     </div>
