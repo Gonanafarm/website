@@ -402,7 +402,7 @@ function App() {
                   software developer with over 4 years of experience
                   building effective tech solutions for the web, backend
                   systems, blockchain, and data science.`}
-                    position={"Co-founder"}
+                    position={"Developer"}
                     name="Kizito Horlong"
                     twitter={
                       "https://twitter.com/KizitoNaanma?t=Nga16puLyPfBDwa-ehNX0g&s=09"
@@ -416,7 +416,7 @@ function App() {
                   <TeamCard
                     image="/images/core/dusu.JPG"
                     description={`He is  a legal practitioner with 10 years experience in legal practice, a fintech law enthusiast with special interest in the Blockchain technology.`}
-                    position={"Co-founder"}
+                    position={"Legal compliance"}
                     name="Dusu Thomas Shut"
                     twitter={"#"}
                     linkedln={"#"}
